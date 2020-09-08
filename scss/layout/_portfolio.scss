@@ -1,7 +1,9 @@
 // Styling for the portfolio grid section
 .portfolio {
   margin-bottom: -30px;
+
   .portfolio-item {
+    border: $border-width solid $secondary;
     cursor: pointer;
     position: relative;
     display: block;
@@ -9,13 +11,21 @@
     margin-bottom: 30px;
     border-radius: $border-radius;
     overflow: hidden;
+    .portfolio-item-title {
+      padding-top: 0.2 rem;
+    }
+    .portfolio-text {
+      @extend .m-2;
+      text-align: center;
+      color: $secondary;
+    }
     .portfolio-item-caption {
       position: absolute;
       top: 0;
       left: 0;
       transition: $transition-base;
       opacity: 0;
-      background-color: fade-out($primary, .1);
+      background-color: fade-out($primary, 0.1);
       &:hover {
         opacity: 1;
       }
