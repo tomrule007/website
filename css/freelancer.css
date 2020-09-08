@@ -7477,7 +7477,7 @@ button.bg-dark:focus {
   margin-left: 0.25rem !important;
 }
 
-.m-2 {
+.m-2, .portfolio .portfolio-item .portfolio-text {
   margin: 0.5rem !important;
 }
 
@@ -9737,6 +9737,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .portfolio .portfolio-item {
+  border: 0.125rem solid #2c3e50;
   cursor: pointer;
   position: relative;
   display: block;
@@ -9744,6 +9745,15 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 30px;
   border-radius: 0.5rem;
   overflow: hidden;
+}
+
+.portfolio .portfolio-item .portfolio-item-title {
+  padding-top: 0.2 rem;
+}
+
+.portfolio .portfolio-item .portfolio-text {
+  text-align: center;
+  color: #2c3e50;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
