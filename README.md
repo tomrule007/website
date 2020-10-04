@@ -1,5 +1,7 @@
 # Website
 
+[![Build Status](https://travis-ci.org/tomrule007/website.svg?branch=master)](https://travis-ci.org/tomrule007/website)
+
 My personal portfolio website.
 
 Future Plans (low Priority):
